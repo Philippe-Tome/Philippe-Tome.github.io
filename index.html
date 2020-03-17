@@ -1,11 +1,318 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Philippe Tome</title>
+    <meta
+      name="Title"
+      property="og:title"
+      content="Philippe Tome's Portfolio"
+    />
+    <meta
+      name="description"
+      property="og:description"
+      content="Software Developer"
+    />
+    <meta name="author" content="Philippe Tome" />
+    <meta property="og:image" content="ascreengrab.png" />
+    <meta charset="utf-8" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat|Merriweather"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+      integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+      crossorigin="anonymous"
+    />
   </head>
   <body>
-    <h1>Philippe Tome's website is under construction</h1>
+    <header>
+      <div class="navBarMobile">
+        <div class="menuButton">
+          <div class="btn-line"></div>
+          <div class="btn-line"></div>
+          <div class="btn-line"></div>
+        </div>
+      </div>
+      <nav role="navigation" id="home" class="menu">
+        <ul class="navigationBar">
+          <li class="navItem"><a href="#main" class="pageLink">Home</a></li>
+          <li class="navItem"><a href="#about" class="pageLink">About</a></li>
+          <li class="navItem">
+            <a href="#projects" class="pageLink">Projects</a>
+          </li>
+          <li class="navItem">
+            <a
+              href="20200314_SEI_Philippe Tome.pdf"
+              class="resumeLink"
+              target="_blank"
+              rel="noopener"
+              >Resume</a
+            >
+          </li>
+          <li class="navItem">
+            <a href="#contact" class="pageLink">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <section class="homePage" role="main" id="main">
+      <h1 class="titleLine">Hi, I'm Philippe Tome.</h1>
+      <h2 class="tagline">
+        A Software Developer from Melbourne.
+      </h2>
+      <h3 class="quote">
+        "Nothing is impossible. It's just that a solution hasn't yet been
+        found."
+      </h3>
+    </section>
+    <hr width="60%" size="5" id="about" />
+    <section class="aboutPage" role="contentinfo">
+      <p>
+        From Electrician to Automation and Robotics Engineer to Software
+        Developer my quest for knowledge is rarely satisfied. The more I learn
+        about technologies the more I want to learn about technologies.
+        <br />I thrive for challenges and constant learning. I am passionate
+        about technologies, digitalisation and optimisation.
+      </p>
+      <p class="aboutMe">
+        I enjoy both front end and back end development. I like breaking down
+        concepts into little pieces and see how they work and fit together.
+        Having worked in the Industrial Automation field I possess a good set of
+        transferrable skills.
+      </p>
+      <section class="languageList" role="listbox">
+        <h1>Stack</h1>
+        <ul class="languages">
+          <li class="languageRowOne">
+            <img src="./logo/htmlLogo.png" alt="html" class="icon" /><span
+              id="htmlTag"
+              >HTML5</span
+            >
+          </li>
+          <li class="languageRowOne">
+            <img
+              src="./logo/cssLogo.png"
+              alt="css"
+              class="icon"
+              id="csslogo"
+            /><span id="cssTag">CSS3</span>
+          </li>
+          <li class="languageRowOne">
+            <img
+              src="./logo/jsLogo.png"
+              alt="javascript"
+              class="icon"
+              id="javascriptlogo"
+            /><span id="jsTag">JavaScript</span>
+          </li>
+          <li class="languageRowTwo">
+            <img
+              src="./logo/nodeJSLogo.png"
+              alt="node"
+              class="icon"
+              id="nodelogo"
+            /><span id="nodeTag">Node.js</span>
+          </li>
+          <li class="languageRowTwo">
+            <img
+              src="./logo/reactLogo.png"
+              alt="react"
+              class="icon"
+              id="reactlogo"
+            /><span id="reactTag">React</span>
+          </li>
+          <li class="languageRowTwo">
+            <img
+              src="./logo/rubyLogo.png"
+              alt="ruby"
+              class="icon"
+              id="jquerylogo"
+            /><span id="jqueryTag">Ruby</span>
+          </li>
+          <li class="languageRowTwo">
+            <img
+              src="./logo/sqlLogo.png"
+              alt="sql"
+              class="icon"
+              id="jquerylogo"
+            />
+          </li>
+        </ul>
+      </section>
+    </section>
+    <hr width="60%" size="5" id="projects" />
+    <section class="projects" role="listbox">
+      <h1 class="projectList">Projects</h1>
+      <section class="projectGroup" role="contentinfo">
+        <p>
+          <img
+            src="./images/ticTacToeScreenshot_imac2013_front.png"
+            class="screengrab"
+            alt="Tic Tac Toe Snip"
+          />
+          <img
+            src="./images/ticTacToeXPhone_iphonesespacegrey_portrait.png"
+            class="screengrab"
+            alt="Tic Tac Toe Snip"
+          />
+        </p>
+        <h2 class="projectTitle">Tic Tac Toe</h2>
+        <p class="projectBlurb">
+          A personalised Tic Tac Toe game where the user can take a selfie to
+          set as an avatar to play against his/her friends or choose from 9 fun
+          preselected avatars with special sound effect associated with them.
+        </p>
+        <p class="projectBlurb">
+          Created with HTML, CSS and JavaScript.
+        </p>
+        <div class="buttonContainer">
+          <a
+            href="https://github.com/Philippe-Tome/Tic-Tac-Toe-game"
+            target="_blank"
+            rel="noopener"
+            class="viewCode"
+            >View Code</a
+          >
+          <a
+            href="https://Philippe-Tome.github.io/Tic-Tac-Toe-game/"
+            target="_blank"
+            rel="noopener"
+            class="viewProject"
+            >View Project</a
+          >
+        </div>
+      </section>
+      <section class="projectGroup" role="contentinfo" id="myCRM">
+        <h2 class="projectTitle">myCRM</h2>
+        <p class="projectBlurb">
+          A CRM application to create service reports by Engineers for their
+          clients. 3 roles (IT, Manager and Engineer) each with a different set
+          of permissions to create/read/edit/delete records.
+          <br />Full CRUD application including the ablility to change encrypted
+          passwords using BCrypt.
+        </p>
+        <p class="projectBlurb">
+          Created with JavaScript, Ruby, Sinatra, PostgreSQL, HTML and CSS.
+        </p>
+        <div class="buttonContainer">
+          <a
+            href="https://github.com/Philippe-Tome/myCRM"
+            target="_blank"
+            rel="noopener"
+            class="viewCode"
+            >View Code</a
+          >
+      </section>
+      <section class="projectGroup" role="contentinfo">
+        <p>
+          <img src="./images/flashZoo_imac2013_front.png" alt="Flash Zoo Snip" class="screengrab" />
+        </p>
+        <h2 class="projectTitle">Flash Zoo</h2>
+        <p class="projectBlurb">
+          For our group project we made Flash Zoo, a Single Page
+learning application from English to 3 different languages using
+flashcards. Worked simultaneously on the same application in a group
+using Trello and Agile techniques to organise our work.
+<br />RESTful API, MVC, Server-side API 
+        </p>
+        <p class="projectBlurb">
+          Created with Node.JS, HTML, CSS, Express.JS, PostgreSQL,
+Axios, Express, Vivify.
+        </p>
+        <div class="buttonContainer">
+          <a
+            href="https://github.com/BeaSuf/flash_zoo_client"
+            target="_blank"
+            rel="noopener"
+            class="viewCode"
+            id="flashZoo"
+          >
+            View Code
+          </a>
+          <a
+            href="https://beasuf.github.io/flash_zoo_client/"
+            target="_blank"
+            rel="noopener"
+            class="viewProject"
+            id="flashZoo"
+          >
+            View Project
+          </a>
+        </div>
+      </section>
+      <section class="projectGroup" role="contentinfo">
+        <p>
+          <img src="images/iPadScreenshot.png" alt="Smart-Home_Hub Snip" class="screengrab" />
+          <img src="images/iPhoneXScreenshot.png" alt="Smart-Home_Hub Snip" class="screengrab" />
+        </p>
+        <h2 class="projectTitle">Smart-Home_Hub</h2>
+        <p class="projectBlurb">
+          Fully open-source and privacy-friendly Home
+Automation Hub project to control and program everything possible in
+the home from one central place without having to use any third party
+or cloud services. 
+        </p>
+        <p class="projectBlurb">
+          Created with Node-Red, Raspberry Pi 3b+, MQTT, Node.JS, Mosquitto, JavaScript, Pi camera, Pi touhscreen, ESP8266 Wi-Fi relays, Tasmota.
+        </p>
+        <div class="buttonContainer">
+          <a
+            href="https://github.com/Philippe-Tome/Smart-Home-Hub"
+            target="_blank"
+            rel="noopener"
+            class="viewCode"
+            id="smartHome"
+          >
+            View Code
+          </a>
+        </div>
+      </section>
+    </section>
+    <hr width="60%" size="5" id="contact" />
+    <section class="contact" role="listbox">
+      <h1>Get in Touch</h1>
+      <p class="contactBlurb">
+        Check out my work and experience below, and feel free to reach out so we
+        can chat more.
+      </p>
+      <ul class="contactInfo">
+        <li>
+          <button class="buttonIcon" id="email">
+            <a href="mailto:philippe.tome@protonmail.com"
+              ><img src="./logo/emailLogo.png" alt="email" class="icon"
+            /></a>
+          </button>
+        </li>
+        <li>
+          <button class="buttonIcon" id="github">
+            <a href="https://github.com/Philippe-Tome" target="_blank"
+              ><img src="./logo/githubLogo.png" alt="gitHub" class="icon"
+            /></a>
+          </button>
+        </li>
+        <li>
+          <button class="buttonIcon" id="linkedin">
+            <a
+              href="https://www.linkedin.com/in/philippe-tome-402844196/"
+              target="_blank"
+              rel="noopener"
+              ><img src="./logo/linkedinLogo.png" alt="linkedin" class="icon"
+            /></a>
+          </button>
+        </li>
+      </ul>
+      <section class="displayInfo" role="contentinfo"></section>
+    </section>
+    <footer>Created by Philippe Tome 2020</footer>
+    <script
+      src="https://code.jquery.com/jquery-3.4.0.min.js"
+      integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg="
+      crossorigin="anonymous"
+    ></script>
+    <script src="app.js"></script>
   </body>
 </html>
