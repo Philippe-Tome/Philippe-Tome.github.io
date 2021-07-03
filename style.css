@@ -311,7 +311,8 @@ button {
 #jsTag,
 #reactTag,
 #nodeTag,
-#jqueryTag {
+#jqueryTag,
+#CSharp {
   display: none;
 }
 
