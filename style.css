@@ -312,7 +312,8 @@ button {
 #reactTag,
 #nodeTag,
 #jqueryTag,
-#csTag {
+#csTag,
+#azureTag {
   display: none;
 }
 
