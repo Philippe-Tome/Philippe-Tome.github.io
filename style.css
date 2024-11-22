@@ -27,7 +27,7 @@ h2 {
 }
 
 hr {
-  background-color: #fd9b3b;
+  background-color: #0176D3;
   border: none;
   margin-bottom: 7%;
 }
@@ -100,7 +100,7 @@ p,
 .navigationBar {
   margin: 0;
   padding: 0;
-  background: #fd9b3b;
+  background: #0176D3;
   color: rgb(255, 255, 255);
   list-style: none;
   transform: translate3d(0, -100%, 0);
@@ -215,7 +215,7 @@ button {
 .viewCode:hover,
 .viewProject:hover,
 .viewDemo:hover {
-  background-color: #fd9b3b;
+  background-color: #0176D3;
   transition: 0.5s;
 }
 
